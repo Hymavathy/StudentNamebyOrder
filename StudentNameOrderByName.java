@@ -1,7 +1,5 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.Set;
-import java.util.TreeSet;
 import java.util.stream.Collectors;
 public class StudentNameOrderByName {
 	public static void main(String[] args) {
@@ -9,7 +7,7 @@ public class StudentNameOrderByName {
         int classes = sc.nextInt();
         while (classes-- > 0) {
             int studentNames = sc.nextInt();
-       //     Set<String> names = new TreeSet<>();
+
             ArrayList<String> names=new ArrayList<>();
             while (studentNames-- > 0) {
                 names.add(sc.next());
